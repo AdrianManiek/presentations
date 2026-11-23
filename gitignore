@@ -1,0 +1,46 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Office / LibreOffice temporary & lock files
+~$*
+.~lock.*#
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Secrets & credentials (never commit these!)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+credentials.json
+
+# Python (e.g. demo code from talks)
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node (e.g. Slidev / reveal.js / Marp slides)
+node_modules/
+dist/
+.cache/
+
+# Logs & temporary files
+*.log
+*.tmp
+*.bak
+
+# Raw recordings (too big for GitHub - link to them instead)
+*.mov
+*.mkv
