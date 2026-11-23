@@ -17,7 +17,9 @@ desktop.ini
 .env.*
 !.env.example
 *.pem
-*.key
+id_rsa*
+id_ed25519*
+*.private.key
 secrets.*
 credentials.json
 
@@ -44,3 +46,4 @@ dist/
 # Raw recordings (too big for GitHub - link to them instead)
 *.mov
 *.mkv
+*.mp4
